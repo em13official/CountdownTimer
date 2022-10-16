@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    background-image: url(images/wallpaper.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+
+.countdown-timer {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Audiowide', cursive;
+}
+
+p {
+    font-size: 2rem;
+    text-shadow: 3px 3px 3px #7a1b1b;
+    margin-bottom: 15px;
+}
+
+span {
+    color: white;
+    margin: 0 20px;
+    font-size: 2.2rem;
+    text-shadow: 3px 3px 3px #725c71;
+}
+
+.text {
+    color: white;
+}
+
+.weeks-c {
+    width: 250px;
+}
+
+.days-c {
+    width: 200px;
+}
+
+.hours-c {
+    width: 200px;
+}
+
+.minutes-c {
+    width: 200px;
+}
+
+.seconds-c {
+    width: 200px;
+}
+
+@media (max-width: 800px) {
+.countdown-timer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+
+.weeks-c {
+    width: 40%;
+    height: 5%;
+    margin: auto;
+}
+
+.days-c {
+    width: 40%;
+    height: 5%;
+    margin: auto;
+}
+
+.hours-c {
+    width: 27%;
+    height: 50%;
+    margin: auto;
+}
+
+.minutes-c {
+    width: 27%;
+    height: 50%;
+    margin: auto;
+}
+
+.seconds-c {
+    width: 27%;
+    height: 50%;
+    margin: auto;
+}
+}
+
+@media (max-width: 500px) {
+    .countdown-timer {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    
+    .weeks-c {
+        width: 55%;
+        height: 20%;
+        margin: auto;
+    }
+    
+    .days-c {
+        width: 55%;
+        height: 20%;
+        margin: auto;
+    }
+    
+    .hours-c {
+        width: 55%;
+        height: 20%;
+        margin: auto;
+    }
+    
+    .minutes-c {
+        width: 55%;
+        height: 20%;
+        margin: auto;
+    }
+    
+    .seconds-c {
+        width: 55%;
+        height: 20%;
+        margin: 0 auto 40px;
+    }
+    }
