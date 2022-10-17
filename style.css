@@ -14,15 +14,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 500;
+    font-family: 'Saira Stencil One', cursive;
     letter-spacing: 5px;
 }
 
 p {
-    font-size: 3rem;
-    text-shadow: 2px 2px 2px #7a1b1b;
-    margin-bottom: 15px;
+    font-size: 2.75rem;
+    text-shadow: 3px 3px 3px #7a1b1b;
+    margin:20px 0 0;
 }
 
 span {
@@ -106,31 +105,31 @@ span {
     
     .weeks-c {
         width: 55%;
-        height: 20%;
+        height: 23%;
         margin: -30px auto 0;
     }
     
     .days-c {
         width: 55%;
-        height: 20%;
+        height: 23%;
         margin: auto;
     }
     
     .hours-c {
         width: 55%;
-        height: 20%;
+        height: 23%;
         margin: auto;
     }
     
     .minutes-c {
         width: 55%;
-        height: 20%;
+        height: 23%;
         margin: auto;
     }
     
     .seconds-c {
         width: 55%;
-        height: 20%;
+        height: 23%;
         margin: 0 auto 40px;
     }
     }
