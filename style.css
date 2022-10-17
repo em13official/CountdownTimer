@@ -14,12 +14,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
 }
 
 p {
-    font-size: 2rem;
-    text-shadow: 3px 3px 3px #7a1b1b;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px #7a1b1b;
     margin-bottom: 15px;
 }
 
@@ -35,7 +37,7 @@ span {
 }
 
 .weeks-c {
-    width: 250px;
+    width: 230px;
 }
 
 .days-c {
@@ -54,25 +56,24 @@ span {
     width: 200px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 .countdown-timer {
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
     justify-content: space-around;
-    margin-top: 15%;
 }
 
 .weeks-c {
     width: 40%;
     height: 5%;
-    margin: auto;
+    margin: -20px auto 50px;
 }
 
 .days-c {
     width: 40%;
     height: 5%;
-    margin: auto;
+    margin: -20px auto 50px;
 }
 
 .hours-c {
@@ -106,7 +107,7 @@ span {
     .weeks-c {
         width: 55%;
         height: 20%;
-        margin: auto;
+        margin: -30px auto 0;
     }
     
     .days-c {
